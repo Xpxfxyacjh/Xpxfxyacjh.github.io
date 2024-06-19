@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>在线留言</title>
+    <link rel="stylesheet" href="./留言.css">
+</head>
+<body>
+    <div id="header">
+        <img id="header2"
+           src="./images/header2.png"  width="280"   height="280"  alt="a header logo">
+    </div>
+    <div id="talking">
+        <h1>在这里可以留下你的信息和想说的话哦~</h1>
+        <p>Nice to meet you</p>
+    </div>
+    <!-- 边栏区 -->
+    <div id="sidebar">
+     <ul>
+        <li><a href="../首页/fxy.html">我的首页</a></li>
+        <li><a href="../个人简介/个人简介.html">我的个人简历</a></li>
+        <li><a href="../我的爱好/我的爱好.html">我的爱好</a></li>
+        <li><a href="../我的大学生活/我的大学生活.html">我的大学生活</a></li>
+     </ul>
+    </div>
+    <div id="sidebar2">
+        <p>很开心与你们每一个人相遇<br>
+           有幸可以留下联系方式哦~
+        </p>
+    </div>
+    <form action="http://www.fxy.com/processorder.php" method="post">
+    <div class="tableRow">
+		<p>姓名:</p>
+		<p> <input type="text" name="name" value="" placeholder="your name" required> </p>
+	</div>
+    <div class="tableRow">
+		<p>性别:</p>
+        <p>
+            <select name="your gender">
+            <option value="女">女</option>
+            <option value="男">男</option>
+            </select>
+		</p>
+	</div>
+    <div class="tableRow">
+		<p>年龄:</p>
+		<p> <input type="number" name="age" min="10" max="60"> </p>
+	</div>
+    <div class="tableRow label">
+		<p> 出生日期: </p>
+		<p> <input type="date" name="date"> </p>
+	</div>
+	<div class="tableRow">
+		<p> 地址: </p>
+		<p> <input type="text" name="address" value="" placeholder="your address" required> </p>
+	</div>
+	<div class="tableRow">
+		<p> 爱好: </p>
+		<p> <input type="text" name="hobby" value="" placeholder="your hobbies" required> </p>
+	</div>
+    <div class="tableRow label">
+		<p>最喜欢的颜色: </p>
+		<p> <input type="color" name="color"> </p>
+	</div>
+    <div class="tableRow">
+		<p> 对我的哪些地方想深入交流: </p>
+		<p>
+            <input type="checkbox" name="like" value="唱歌"> 唱歌
+            <input type="checkbox" name="like" value="弹琴"> 弹琴
+            <input type="checkbox" name="like" value="旅游"> 旅游
+            <input type="checkbox" name="like" value="拍照" checked>
+            拍照
+		</p>
+	</div>
+    <div class="tableRow">
+		<p> 想说的话: </p>
+		<p>
+            <textarea name="comments"></textarea>
+		</p>
+	</div>
+    <div class="tableRow">
+		<p></p>
+		<p> <input type="submit" value="提交"> </p>
+	</div>
+    </form>
+</body>
+</html>

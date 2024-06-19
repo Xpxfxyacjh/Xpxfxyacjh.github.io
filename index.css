@@ -1,0 +1,270 @@
+body{
+    font-size:small;
+    font-family:Verdana, Helvetica, Arial, sans-serif;
+    margin:0px;  
+}
+/* 页眉 */
+div#header{
+    background:url("./images/header1.png") no-repeat;
+    margin: 0px;
+    height: 300px;
+}
+#header img#header2 {
+    /* 浮动布局，浮动在页眉区的右边 */
+	float: right;
+}
+/* 导航 */
+div#nav{
+    background-color: #1576adf2;;
+    height: 60px;
+    margin: 0px;
+    font-weight:bolder;  
+    /* 比父元素更粗 */
+    font-size:14px; 
+}
+div#nav ul{
+    margin: 0px;
+}
+div#nav li{
+    /* 浮动 */
+    float: left;
+    width: 320px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #FFF;
+}
+div#nav a{
+    width:250px;
+    height:60px; 
+    display:block; 
+    font-size:14px; 
+    font-weight:bold;
+    float:left;
+}
+div#nav a:link { 
+    color: #FFF;    
+    text-decoration: none;
+}
+div#nav a:visited{
+    color:#FFF;  
+}
+div#nav a:hover {   
+    color: #0b0101;  
+    text-decoration: underline;
+}
+div#nav a:active {    
+    color: #FFF;   
+    overflow:hidden;	
+}
+/* 适用页面的大多数布局 */
+div.inner{
+    width: 1800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* 导航栏标题没有前面的圆点 */
+.no-bullets {  
+    list-style-type: none;  
+  }
+/* 页脚 */
+div#footer{
+    height:30px; 
+    font-size:14px; 
+    /* 居中显示 */
+    text-align:center; 
+    font-weight:bold; 
+    margin: 0px;
+}
+/* section元素 */
+section#main{
+    display: block;
+    font-size:16px;
+    background: #FFF;
+    height: 270px;
+    margin: 0px;
+    border: #82b1e0 solid ;
+    border-width: thick;
+}
+section#main h1{
+    margin-left: 40px;
+    font-style: italic;
+    font-size: 2em;
+}
+/* 对此图片绝对定位 */
+section#main div#main_img{
+    position: absolute;
+    top: 370px;
+    right: 80px;
+}
+/* 三栏区 */
+div#con_1{
+    height: 540px;
+}
+div#con_1 div#con_1_1{
+    width: 360px;
+    height: 450px;
+    background-color: #f1efe3;
+    float: left;
+    margin-left: 40px;
+}
+div#con_1 div#con_1_2{
+    width: 360px;
+    height: 450px;
+    background-color: #f1efe3;
+    margin-left: 55px;
+    margin-right: 18px;
+    float: left;
+}
+div#con_1 div#con_1_3{
+    width:360px;
+    height: 450px;
+    background-color: #f1efe3;
+    float: left;
+    margin-left: 40px;
+}
+div#con_header{
+    height: 90px;
+}
+div#con_header div#header1{
+    width: 360px;
+    height: 60px;
+    background-color: #1576adf2;
+    margin-top: 30px;
+    float: left;
+    margin-left: 40px;
+}
+div#con_header div#header2{
+    width: 360px;
+    height: 60px;
+    background-color: #1576adf2;
+    margin-top: 30px;
+    margin-left: 55px;
+    margin-right: 18px;
+    float: left;
+}
+div#con_header div#header3{
+    width:360px;
+    height: 60px;
+    background-color: #1576adf2;
+    margin-top: 30px;
+    float: left;
+    margin-left: 40px;
+}
+div#con_header h2{
+    color: #FFF;
+    text-align: center;
+}
+div#con_2_header{
+    height: 60px;
+    background-color: #1576adf2;
+    margin-top:-40px ;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+div#con_2{
+  height: 260px;
+  background-color: #f1efe3;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+div#con_2_header h2{
+    color: #FFF;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+/* 努力当麦霸区 */
+/* 图片都绝对定位 */
+div#con_1  div#con_1_1 img#麦霸1{
+    position: absolute;
+    top: 740px;
+    left: 55px;
+}
+div#con_1  div#con_1_1 blockquote{
+    padding-left: 114px;
+    padding-top: 70px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.3em;
+}
+div#con_1  div#con_1_1 img#麦霸2{
+    position: absolute;
+    top: 890px;
+    left: 55px;
+}
+div#con_1  div#con_1_1 img#麦霸4{
+    position: absolute;
+    top: 1040px;
+    left: 55px;
+}
+/* 努力当学霸区 */
+div#con_1  div#con_1_2 p{
+    text-align: center;
+    font-size: 1.6em;
+    text-decoration: underline;
+}
+div#con_1  div#con_1_2 blockquote{
+    padding-top: 30px;
+    text-align: right;
+}
+/* 努力当博主区 */
+div#con_1  div#con_1_3 p{
+    text-align: left;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-left: 10px;
+}
+div#con_1  div#con_1_3 img#博主1{
+    position: absolute;
+    top: 900px;
+    left: 880px;
+}
+div#con_1  div#con_1_3 img#博主2{
+    position: absolute;
+    top: 900px;
+    left: 1060px;
+}
+div#con_1  div#con_1_3 img#博主3{
+    position: absolute;
+    top: 1040px;
+    left: 880px;
+}
+div#con_1  div#con_1_3 img#博主4{
+    position: absolute;
+    top: 1040px;
+    left: 1060px;
+}
+/* 箭头装饰 */
+div#con_1  div#con_1_3 img#箭头{
+    position: absolute;
+    top: 830px;
+    left: 1150px;
+}
+/* 滚动图片 */
+.scrolling-image-container { 
+    width: 1190px; 
+    height: 260px; 
+    overflow: hidden; /* 隐藏超出容器的部分 */  
+    position: relative;  
+    white-space: nowrap; /* 防止图片换行 */  
+    text-align: center;
+}  
+.image-wrapper {  
+    display: inline-flex; /* 使图片排成一行 */  
+    animation: scroll-images 15s linear infinite; /* 设置滚动动画 */  
+}  
+  
+.image-wrapper img {  
+    height: 260px; 
+    vertical-align: top; /* 防止图片下方出现空白间隙 */  
+}  
+  
+@keyframes scroll-images {  
+    0% {  
+        transform: translateX(0);  
+    }  
+    100% {  
+        transform: translateX(-100%); /* 向左滚动一个容器的宽度 */  
+    }  
+}

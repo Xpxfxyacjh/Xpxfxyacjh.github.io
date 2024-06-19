@@ -1,0 +1,73 @@
+body{
+    font-size:small;
+    font-family:Verdana, Helvetica, Arial, sans-serif;
+    margin:0px;  
+}
+div#header{
+    background:url("./images/header1.png") no-repeat;
+    margin: 0px;
+    height: 300px;
+}
+#header img#header2 {
+	float: right;
+}
+div#main h1{
+    color: #1576adf2;
+    margin-left: 50px;
+    border-bottom: #1576adf2 solid thick;
+}
+div#main p{
+    border: thin solid white;
+    font-size: 1.2em;
+    height: 110px;
+    width: 740px;
+    margin-left: 50px;
+    background-color: #F0F0F0;
+    padding: 20px;
+    margin-top: 50px;
+}
+div#about-me  p{
+    border: thin solid white;
+    font-size: 1.2em;
+    height: 70px;
+    width: 740px;
+    margin-left: 50px;
+    background-color: aliceblue;
+    padding: 20px;
+}
+div#main video{
+    width: 300px;
+    height: 300px;
+    float: right;
+    margin: 0px;
+}
+div#hobby h1{
+    color: #1576adf2;
+    margin-left: 50px;
+    border-bottom: #1576adf2 solid thick;
+}
+div#hobby blockquote{
+    border: thin solid white;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: center;
+    height: 400px;
+    width: 1175px;
+    margin-left: 50px;
+    background-color: aliceblue;
+    padding: 20px;
+}
+div#hobby blockquote img{
+    padding: 13px;
+}
+div#hobby h2{
+    color: #23788f;
+    margin-left: 50px;
+}
+div#footer{
+    height:60px; 
+    font-size:14px; 
+    text-align:center; 
+    font-weight:bold; 
+    margin: 0px;
+}
